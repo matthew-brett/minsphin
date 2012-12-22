@@ -211,6 +211,16 @@ latex_documents = [
 # If false, no module index is generated.
 #latex_domain_indices = True
 
+# -----------------------------------------------------------------------------
+# Autosummary
+# -----------------------------------------------------------------------------
+
+import glob
+autosummary_generate = glob.glob("reference/*.rst")
+
+# Autodoc
+# autodoc_default_flags = ['members', 'special-members']
+# autoclass_content = 'both'
 
 # -- Options for manual page output --------------------------------------------
 
